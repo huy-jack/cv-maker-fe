@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import AddSectionDialog from "./addSectionDialog";
 
-export default function ToolBar() {
+export default function Toolbar() {
   return (
     <>
       <Card className="w-[12rem] p-4 fixed m-5 overflow-y-auto">

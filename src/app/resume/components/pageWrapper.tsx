@@ -3,13 +3,13 @@ import { cn } from "@/lib/utils";
 import { Plus } from "lucide-react";
 import React from "react";
 
-interface A4PageProps {
+interface PageWrapperProps {
   children: React.ReactNode;
   className?: string;
   printMode?: boolean;
 }
 
-const A4Wrapper = React.forwardRef<HTMLDivElement, A4PageProps>(
+const PageWrapper = React.forwardRef<HTMLDivElement, PageWrapperProps>(
   ({ children, className, printMode = false, ...props }, ref) => {
     return (
       <>
@@ -42,6 +42,6 @@ const A4Wrapper = React.forwardRef<HTMLDivElement, A4PageProps>(
   }
 );
 
-A4Wrapper.displayName = "A4Wrapper";
+PageWrapper.displayName = "A4Wrapper";
 
-export default A4Wrapper;
+export default PageWrapper;

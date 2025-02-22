@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Rubik", Helvetica, sans-serif;
+  color: rgb(45, 54, 57);
 }
 
 @layer base {
