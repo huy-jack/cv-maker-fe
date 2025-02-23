@@ -1,14 +1,10 @@
 import SectionHeader from "../components/sectionHeader";
 
-interface SummarySectionProps {
-  content: string;
-  onClick?: () => void;
-}
-export default function SummarySection({ content }: SummarySectionProps) {
+export default function SummarySection() {
   return (
     <section className="mb-8">
       <SectionHeader title="Summary" />
-      <p>{content}</p>
+      <p>Summary</p>
     </section>
   );
 }

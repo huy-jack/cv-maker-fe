@@ -1,6 +1,6 @@
 import React from "react";
 import RichTextEditorDialog from "./richTextEditorDialog";
-import Toolbar from "./toolbar";
+import Toolbar from "./toolbar/toolbar";
 
 interface ResumeLayoutProps {
   children: React.ReactNode;

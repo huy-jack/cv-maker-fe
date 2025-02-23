@@ -1,13 +1,23 @@
 {
   "sections": [
-    { "id": 1, "title": "Introduction", "description": "A brief summary of who you are and what you do" },
-    { "id": 2, "title": "Work Experience", "description": "A list of your previous work experience" },
-    { "id": 3, "title": "Projects", "description": "A list of your notable projects" },
-    { "id": 4, "title": "Skills", "description": "A list of your skills and abilities" },
-    { "id": 5, "title": "Contact", "description": "Your contact information" },
-    { "id": 6, "title": "Education", "description": "A list of your educational background" },
-    { "id": 7, "title": "Languages", "description": "A list of languages you are proficient in" },
-    { "id": 8, "title": "Interests", "description": "A list of your hobbies and interests" },
-    { "id": 9, "title": "References", "description": "A list of your professional references" }
+    {
+      "id": 1,
+      "title": "Introduction",
+      "description": "A brief summary of who you are and what you do",
+      "component": "IntroSection"
+    },
+    {
+      "id": 2,
+      "title": "Work Experience",
+      "description": "A list of your previous work experience",
+      "component": "ExperienceSection"
+    },
+    {
+      "id": 3,
+      "title": "Education",
+      "description": "A list of your educational background",
+      "component": "AcademicSection"
+    },
+    { "id": 4, "title": "Summary", "description": "A list of your skills and abilities", "component": "SummarySection" }
   ]
 }
