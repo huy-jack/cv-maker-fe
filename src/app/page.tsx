@@ -22,8 +22,8 @@ export default function HomePage() {
             <span className="block text-blue-600">in Minutes</span>
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-lg text-gray-600">
-            Design, customize, and download your perfect CV with our intuitive
-            builder. Stand out from the crowd with professional templates.
+            Design, customize, and download your perfect CV with our intuitive builder. Stand out from the crowd with
+            professional templates.
           </p>
           <div className="mt-10">
             <Button
@@ -63,9 +63,7 @@ export default function HomePage() {
       <div className="bg-white py-16">
         <div className="container mx-auto px-4 text-center">
           <div className="flex items-center justify-center space-x-8">
-            <div className="text-gray-400 text-sm font-medium">
-              Trusted by professionals from
-            </div>
+            <div className="text-gray-400 text-sm font-medium">Trusted by professionals from</div>
             <div className="flex space-x-12">
               <img
                 src="/api/placeholder/120/40"
@@ -90,21 +88,13 @@ export default function HomePage() {
   );
 }
 
-function FeatureCard({
-  icon,
-  title,
-  description,
-}: {
-  icon: React.ReactNode;
-  title: string;
-  description: string;
-}) {
+function FeatureCard({ icon, title, description }: { icon: React.ReactNode; title: string; description: string }) {
   return (
     <Card className="p-6 hover:shadow-lg transition-shadow duration-200">
       <div className="space-y-4">
         <div className="inline-block p-3 bg-blue-50 rounded-lg">{icon}</div>
         <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
-        <p className="text-gray-600">{description}</p>
+        <div className="text-gray-600">{description}</div>
       </div>
     </Card>
   );

@@ -34,7 +34,9 @@ const PageWrapper = React.forwardRef<HTMLDivElement, PageWrapperProps>(
 
         <div className="text-center my-5">
           <Button className="mx-auto">
-            <Plus /> Add Page
+            <span>
+              <Plus /> Add Page
+            </span>
           </Button>
         </div>
       </>
